@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041B8A6C2CD15BBA006C6590 /* apiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B8A6B2CD15BBA006C6590 /* apiModel.swift */; };
+		041B8A6E2CD16133006C6590 /* apiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B8A6D2CD16133006C6590 /* apiClass.swift */; };
+		043D84632CCC080500FDB24A /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D84622CCC080500FDB24A /* model.swift */; };
 		04F335892AE6CFB600162FE7 /* SwiftUI_wearherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F335882AE6CFB600162FE7 /* SwiftUI_wearherApp.swift */; };
 		04F3358B2AE6CFB600162FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3358A2AE6CFB600162FE7 /* ContentView.swift */; };
 		04F3358D2AE6CFB700162FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F3358C2AE6CFB700162FE7 /* Assets.xcassets */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041B8A6B2CD15BBA006C6590 /* apiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiModel.swift; sourceTree = "<group>"; };
+		041B8A6D2CD16133006C6590 /* apiClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiClass.swift; sourceTree = "<group>"; };
+		043D84622CCC080500FDB24A /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		043D84642CCCB03300FDB24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		04F335852AE6CFB600162FE7 /* SwiftUI-wearher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-wearher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F335882AE6CFB600162FE7 /* SwiftUI_wearherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_wearherApp.swift; sourceTree = "<group>"; };
 		04F3358A2AE6CFB600162FE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,10 +101,14 @@
 		04F335872AE6CFB600162FE7 /* SwiftUI-wearher */ = {
 			isa = PBXGroup;
 			children = (
+				043D84642CCCB03300FDB24A /* Info.plist */,
 				04F335882AE6CFB600162FE7 /* SwiftUI_wearherApp.swift */,
 				04F3358A2AE6CFB600162FE7 /* ContentView.swift */,
 				04F3358C2AE6CFB700162FE7 /* Assets.xcassets */,
 				04F3358E2AE6CFB700162FE7 /* Preview Content */,
+				043D84622CCC080500FDB24A /* model.swift */,
+				041B8A6B2CD15BBA006C6590 /* apiModel.swift */,
+				041B8A6D2CD16133006C6590 /* apiClass.swift */,
 			);
 			path = "SwiftUI-wearher";
 			sourceTree = "<group>";
@@ -257,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041B8A6C2CD15BBA006C6590 /* apiModel.swift in Sources */,
 				04F3358B2AE6CFB600162FE7 /* ContentView.swift in Sources */,
+				043D84632CCC080500FDB24A /* model.swift in Sources */,
+				041B8A6E2CD16133006C6590 /* apiClass.swift in Sources */,
 				04F335892AE6CFB600162FE7 /* SwiftUI_wearherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +439,10 @@
 				DEVELOPMENT_TEAM = QGM7999C9H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-wearher/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +472,10 @@
 				DEVELOPMENT_TEAM = QGM7999C9H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-wearher/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
